@@ -1,0 +1,52 @@
+li {
+list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    color: #8d9297;
+    line-height:  2.14;
+    letter-spacing: normal;
+}
+
+a:hover {
+    letter-spacing: normal;
+    color: #1fa637;
+    line-height: 2.14;
+    cursor: pointer;
+}
+
+.f3, .f2, .f1  {
+    display: flex;
+    flex-grow: 1;
+}
+
+.tw, .fb {
+    margin-right: 44px;
+}
+
+
+ .fk, .f4 {
+    display: flex;
+}
+
+.footer {
+    line-height: 29.96px;
+    font-weight: 400;
+    font-size: 14px;
+    font-family: "Nunito", sans-serif;
+    display: flex;
+    min-height: 25vh;
+}
+
+.svgFooter {
+    fill: #1fa637;
+    position: absolute;
+    max-width: 8%;
+    top:16%;
+    left: 2%;
+    }
+
+    .fab:hover {
+        color:rgba(29,161,242,1.00);
+    }
