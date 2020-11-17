@@ -50,6 +50,10 @@ nav .nav-item {
   color: #8d9297;
 }
 
+nav .nav-mobile-show {
+  display: none;
+}
+
 .nav-signup {
   color: #1fa637;
   border: 1px solid #1fa637;
@@ -84,7 +88,7 @@ nav .nav-item {
 
 @media all and (max-width: 1024px) {
   nav {
-    height: 8vh;
+    height: 9vh;
   }
 
   nav .burger {
@@ -149,6 +153,14 @@ nav .nav-item {
   .nav-login {
     color: #8d9297;
     cursor: pointer;
+  }
+
+  nav .nav-mobile-hidden {
+    display: none;
+  }
+
+  nav .nav-mobile-show {
+    display: unset;
   }
 }
 

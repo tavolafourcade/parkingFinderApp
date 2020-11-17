@@ -34,8 +34,9 @@ export const Navbar = () => {
                   }
                 )
               }
-          <li className="nav-item"><a className=" nav-login">Login</a></li>
-          <li className="nav-item"><a className="nav-signup">Sign Up</a></li>
+          <li className="nav-item nav-mobile-hidden"><a className=" nav-login">Login</a></li>
+          <li className="nav-item nav-mobile-hidden"><a className="nav-signup">Sign Up</a></li>
+          <li className="nav-item nav-mobile-show"><a className="nav-login">Sign Up/Login</a></li>
         </ul>
       </nav>
 

@@ -1,0 +1,33 @@
+.hero-section {
+  background: #22313f;
+  padding: 1em;
+}
+
+.hero-section h3 {
+  color: white;
+  display: flex;
+  justify-content: center;
+}
+
+.hero-section p {
+  color: white;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+.hero-section .hero-phone-img {
+  width: 280px;
+  height: 370px;
+  display: flex;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+.hero-section .hero-phone-img img {
+  width: 280px;
+  height: 462px;
+}
+
+
+/***SEARCH FIELD STYLE***/
